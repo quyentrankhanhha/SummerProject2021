@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  text-decoration: none;
+}
+
+header {
+  padding: 2.5rem 0;
+}
+
+.logo {
+  cursor: pointer;
+  padding: 0 2rem;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: 900;
+  position: relative;
+}
+
+.logo span:nth-child(2) {
+  color: #ffd615;
+}
+
+.nav_links {
+  list-style: none;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_links li {
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  font-size: 15px;
+
+  color: #000000;
+  font-weight: 400;
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav_links li .active {
+  color: rgba(0, 0, 0, 0.5);
+}
