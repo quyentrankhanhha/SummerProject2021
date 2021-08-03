@@ -1,0 +1,19 @@
+.about-content {
+  padding: 3rem;
+  margin-bottom: 2rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.about-content_number {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+
+.about-content_text {
+  display: block;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 10px;
+}

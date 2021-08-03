@@ -1,24 +1,25 @@
-import './App.scss'
+import './App.css'
+import React, { Fragment } from 'react'
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Header from './components/Layout/Header'
-import Footer from './components/Layout/Footer'
-import Subcribe from './components/Layout/Subcribe'
+
+import Home from './components/Home/Home'
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path='/about'></Route>
-        <Route path='/foods'></Route>
-        <Route path='/lifestyle'></Route>
-        <Route path='/contact'></Route>
-        <Route path='/'>
-          <Header></Header>
-          <Subcribe></Subcribe>
-          <Footer></Footer>
-        </Route>
-      </Switch>
-    </Router>
+    <Fragment>
+      <Router>
+        <Switch>
+          <Route path='/about'></Route>
+          <Route path='/foods'></Route>
+          <Route path='/lifestyle'></Route>
+          <Route path='/contact'></Route>
+          <Route path='/'>
+            <Home></Home>
+          </Route>
+        </Switch>
+      </Router>
+    </Fragment>
   )
 }
 

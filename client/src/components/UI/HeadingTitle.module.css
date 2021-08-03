@@ -1,0 +1,16 @@
+.heading-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  position: relative;
+}
+
+.heading-title::after {
+  position: absolute;
+  bottom: 7px;
+  right: -12px;
+  width: 10px;
+  height: 10px;
+  content: '';
+  background: #ffd615;
+}

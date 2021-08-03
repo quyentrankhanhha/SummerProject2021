@@ -1,0 +1,42 @@
+.subcribe {
+  background: #f8f9fa;
+  padding: 7em 0;
+}
+
+.subcribe .container {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.subcribe p {
+  margin-bottom: 1rem;
+}
+
+form {
+  margin: 0 1.5rem;
+}
+
+.input-control {
+  height: 64px !important;
+  width: 25rem;
+  border: 1px solid transparent;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.05) !important;
+  border-radius: 5px 0 0 5px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.submit {
+  color: #fff !important;
+  background: #000 !important;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  height: 64px !important;
+  border: 1px solid transparent;
+  padding: 0 20px;
+  position: absolute;
+  cursor: pointer;
+}

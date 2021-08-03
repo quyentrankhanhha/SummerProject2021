@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+footer {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999;
+}
+
+footer {
+  padding: 7em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 li,
 a,
 button {
@@ -16,13 +10,13 @@ header {
 
 .logo {
   cursor: pointer;
-  padding: 0 2rem;
 }
 
 .logo span {
   font-size: 24px;
   font-weight: 900;
   position: relative;
+  color: #000;
 }
 
 .logo span:nth-child(2) {
@@ -31,9 +25,9 @@ header {
 
 .nav_links {
   list-style: none;
-  padding: 0 1rem;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
 .nav_links li {
@@ -42,7 +36,6 @@ header {
 
 .nav_links li a {
   font-size: 15px;
-
   color: #000000;
   font-weight: 400;
   transition: all 0.3s ease 0s;

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
 import { Grid, Container } from '@material-ui/core'
-import classes from '../styles/Footer.module.css'
+import classes from '../../styles/Footer.module.css'
 
 export default function Footer() {
   return (
