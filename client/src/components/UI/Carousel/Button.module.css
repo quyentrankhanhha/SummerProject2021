@@ -1,0 +1,8 @@
+.carousel__btn {
+  flex: 50%;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: none;
+  background: #fff;
+  color: #999999;
+}

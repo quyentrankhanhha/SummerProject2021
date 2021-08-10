@@ -1,0 +1,83 @@
+.carousel {
+  width: 100%;
+  height: 700px;
+}
+
+.carousel__inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.carousel__img {
+  height: 100%;
+  flex: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel__infor {
+  height: 100%;
+  flex: 35%;
+}
+
+.carousel__detail {
+  height: 85%;
+  background: #ffc107;
+  padding: 4rem 3rem;
+}
+
+.carousel__detail h3 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.carousel__detail h1 {
+  font-size: 48px;
+  color: #000000;
+  line-height: 1.3;
+  font-weight: 900;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.carousel__detail h1::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: #000000;
+}
+
+.carousel__detail p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 3rem;
+}
+
+.carousel__buttons {
+  display: flex;
+  height: 15%;
+  align-content: center;
+}
+
+.btn-black {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn-black span {
+  margin: 0 1rem;
+}

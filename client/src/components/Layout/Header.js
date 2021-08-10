@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { NavLink } from 'react-router-dom'
-import classes from '../../styles/Header.module.css'
+import classes from '../Layout/Header.module.css'
 import { Grid, Container } from '@material-ui/core'
 
 export default function Header() {

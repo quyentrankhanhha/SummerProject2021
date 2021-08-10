@@ -1,0 +1,21 @@
+.category-img {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.category-img a {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.category-img .text h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}

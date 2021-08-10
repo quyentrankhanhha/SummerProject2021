@@ -1,15 +1,20 @@
 import React from 'react'
 import { Grid, Box, Container } from '@material-ui/core'
 import AboutContent from '../UI/AboutContent'
-import classes from '../../styles/About.module.css'
-
+import classes from '../Layout/About.module.css'
 export default function About() {
   return (
     <section className={classes.about}>
       <Container>
         <Grid container direction='row' justifyContent='center'>
           <Grid item xs>
-            <div className={classes['about-img']}></div>
+            <div
+              className={classes['about-img']}
+              style={{
+                backgroundImage: `url(/assets/about.webp)`,
+                backgroundSize: 'cover'
+              }}
+            ></div>
           </Grid>
           <Grid item xs pr='2rem'>
             <Box p={3}>

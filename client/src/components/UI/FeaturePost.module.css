@@ -1,0 +1,37 @@
+.post {
+  margin-bottom: 3em;
+  width: 100%;
+}
+
+.post .post-img_cover {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.post .post-img_cover img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.post .text {
+  padding-top: 1rem;
+}
+
+.post .text p {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post .text h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.post .text h3 a {
+  color: #000;
+}

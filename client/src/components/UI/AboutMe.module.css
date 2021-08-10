@@ -1,0 +1,21 @@
+.about-me {
+  text-align: center;
+}
+
+.about-me .heading {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-me img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-me .text {
+  padding-top: 1.5rem;
+}

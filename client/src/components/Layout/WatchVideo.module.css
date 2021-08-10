@@ -1,0 +1,50 @@
+.watch-video {
+  width: 100%;
+}
+
+.watch-video p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.watch-video_infor {
+  margin-top: -4em !important;
+  padding: 1.5rem;
+  background: #1f1f1f;
+}
+
+.watch-video_infor div {
+  padding: 3rem 1.5rem;
+}
+
+.watch-video_infor .popup-video {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.watch-video_infor .popup-video span {
+  margin: 0 0 0 1.5rem;
+}
+
+.watch-video_infor h1 {
+  font-size: 70px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 700;
+  position: relative;
+}
+
+.watch-video_infor .signature {
+  font-style: italic;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  color: rgba(255, 255, 255, 0.2);
+  text-decoration: underline;
+}
+
+.watch-video_img div {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

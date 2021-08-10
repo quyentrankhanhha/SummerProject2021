@@ -1,10 +1,10 @@
 import React from 'react'
-import classes from '../../styles/Subcribe.module.css'
+import classes from '../Layout/Subcribe.module.css'
 import HeadingName from '../UI/HeadingTitle'
 
 export default function Subcribe() {
   return (
-    <section className={classes.subcribe}>
+    <section className={`${classes.subcribe} section-spacing`}>
       <div className={classes.container}>
         <HeadingName title='Subcribe to our Newsletter' />
         <p>

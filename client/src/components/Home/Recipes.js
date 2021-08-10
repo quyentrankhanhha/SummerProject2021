@@ -1,22 +1,44 @@
 import React from 'react'
 import HeadingName from '../UI/HeadingTitle'
 import { Container, Grid } from '@material-ui/core'
-import classes from '../../styles/Recipes.module.css'
 import BlogEntry from '../UI/BlogEntry'
+import Categories from '../UI/Categories'
 
 export default function Recipes() {
   return (
-    <section className={classes.recipes}>
+    <section className='section-spacing'>
       <Container>
-        <Grid container>
+        <Grid container spacing={4} direction='row'>
           <Grid item xs={9}>
             <HeadingName title='Holiday Seasons Recipes' />
-            <Grid item xs={6}>
-              <BlogEntry></BlogEntry>
+            <Grid container spacing={4}>
+              <Grid item xs={6}>
+                <BlogEntry
+                  imgStyle={{
+                    background: `url(/assets/recipes1.webp)`,
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center center',
+                    backgroundSize: 'cover',
+                    height: '500px'
+                  }}
+                ></BlogEntry>
+              </Grid>
+              <Grid item xs={6}>
+                <BlogEntry
+                  imgStyle={{
+                    background: `url(/assets/recipes1.webp)`,
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center center',
+                    backgroundSize: 'cover',
+                    height: '500px'
+                  }}
+                ></BlogEntry>
+              </Grid>
             </Grid>
-            <Grid item xs={6}></Grid>
           </Grid>
-          <Grid item xs={3}></Grid>
+          <Grid item xs={3}>
+            <Categories></Categories>
+          </Grid>
         </Grid>
       </Container>
     </section>

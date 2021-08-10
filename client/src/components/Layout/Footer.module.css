@@ -38,6 +38,10 @@ footer h2 {
   color: #eee;
 }
 
+footer a {
+  color: #999;
+}
+
 footer a:hover {
   color: #eee;
 }
