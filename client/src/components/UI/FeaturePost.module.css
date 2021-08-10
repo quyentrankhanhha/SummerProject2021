@@ -21,6 +21,11 @@
   padding-top: 1rem;
 }
 
+.post .text .subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
 .post .text p {
   margin-bottom: 10px;
   display: flex;

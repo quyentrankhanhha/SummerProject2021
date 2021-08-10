@@ -8,12 +8,12 @@ export default function FeaturePost(props) {
   return (
     <div className={classes.post}>
       <a className={classes['post-img_cover']}>
-        <img src={props.source} style={props.imgStyle} />
+        <img src={props.source} style={props.imgStyle} alt='feature img' />
       </a>
       <div className={classes.text}>
-        <p>
+        <p className={classes.subtitle}>
           <span>Dessert</span>
-          <span>-------</span>
+          <span></span>
           <span>March 01, 2021</span>
         </p>
         <h3>

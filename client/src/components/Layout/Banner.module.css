@@ -1,0 +1,57 @@
+.banner {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.overlay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container__inner {
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.container__inner .text {
+  text-align: center;
+  color: #fff;
+}
+.container__inner .text h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.container__inner .text ol {
+  justify-content: center;
+}
+
+.container__inner .text a,
+.container__inner .text p,
+.container__inner .text span {
+  text-decoration: none;
+  color: #fff;
+}

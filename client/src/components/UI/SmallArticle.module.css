@@ -1,0 +1,25 @@
+.small-article {
+  padding: 1rem 0;
+}
+
+.small-article .img {
+  height: 380px;
+  width: 100%;
+}
+
+.small-article .text {
+  padding: 1.5rem 3rem 0 3rem;
+}
+
+.small-article .text .subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-article .text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 1);
+}

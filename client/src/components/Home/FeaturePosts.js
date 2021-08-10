@@ -57,7 +57,7 @@ export default function FeaturePosts() {
             </Grid>
           </Grid>
           <Grid item xs={3}>
-            <AboutMe></AboutMe>
+            <AboutMe />
           </Grid>
         </Grid>
       </Container>
