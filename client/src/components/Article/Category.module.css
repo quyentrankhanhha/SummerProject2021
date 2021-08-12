@@ -1,0 +1,21 @@
+.li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+  list-style: none;
+}
+
+.li a {
+  display: block;
+  text-decoration: none;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.li a span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #ccc;
+}

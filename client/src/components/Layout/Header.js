@@ -19,7 +19,7 @@ export default function Header() {
               <nav>
                 <ul className={classes.nav_links}>
                   <li>
-                    <NavLink to='/' activeClassName='active'>
+                    <NavLink exact={true} to='/' activeClassName='active'>
                       Home
                     </NavLink>
                   </li>

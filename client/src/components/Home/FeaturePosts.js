@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Grid } from '@material-ui/core'
+import { Container, Grid, Box } from '@material-ui/core'
 
 import HeadingTitle from '../UI/HeadingTitle'
 import AboutMe from '../UI/AboutMe'
@@ -12,8 +12,8 @@ export default function FeaturePosts() {
         <Grid container spacing={4} direction='row'>
           <Grid item xs={9}>
             <HeadingTitle title='Feature Posts' />
-            <Grid container spacing={4}>
-              <Grid item xs={4}>
+            <Box display='flex' flexWrap='wrap'>
+              <Box flex='0 0 33%' p={3}>
                 <FeaturePost
                   source={`/assets/featurepost1.jpeg`}
                   imgStyle={{ height: 'auto' }}
@@ -25,9 +25,9 @@ export default function FeaturePosts() {
                     borderRadius: '3px',
                     fontWeight: 'bold'
                   }}
-                ></FeaturePost>
-              </Grid>
-              <Grid item xs={4}>
+                />
+              </Box>
+              <Box flex='0 0 33%' p={3}>
                 <FeaturePost
                   source={`/assets/featurepost1.jpeg`}
                   imgStyle={{ height: 'auto' }}
@@ -39,9 +39,9 @@ export default function FeaturePosts() {
                     borderRadius: '3px',
                     fontWeight: 'bold'
                   }}
-                ></FeaturePost>
-              </Grid>
-              <Grid item xs={4}>
+                />
+              </Box>
+              <Box flex='0 0 33%' p={3}>
                 <FeaturePost
                   source={`/assets/featurepost1.jpeg`}
                   imgStyle={{ height: 'auto' }}
@@ -53,9 +53,9 @@ export default function FeaturePosts() {
                     borderRadius: '3px',
                     fontWeight: 'bold'
                   }}
-                ></FeaturePost>
-              </Grid>
-            </Grid>
+                />
+              </Box>
+            </Box>
           </Grid>
           <Grid item xs={3}>
             <AboutMe />

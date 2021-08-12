@@ -25,7 +25,7 @@ export default function SmallNews() {
           padding: '2rem 1rem'
         }}
       >
-        <PaginationLink></PaginationLink>
+        <PaginationLink />
       </div>
     </section>
   )
