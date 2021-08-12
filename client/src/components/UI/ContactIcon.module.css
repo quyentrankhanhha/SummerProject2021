@@ -1,0 +1,29 @@
+.contact-icon {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.contact-icon .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #000;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  border-radius: 50%;
+}
+
+.contact-icon .box span {
+  font-size: 30px;
+  color: #ffd615;
+}
+
+.contact-icon h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Poppins', Arial, sans-serif;
+  margin-bottom: 1.5rem;
+}

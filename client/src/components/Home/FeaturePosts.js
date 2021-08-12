@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container, Grid } from '@material-ui/core'
+
 import HeadingTitle from '../UI/HeadingTitle'
-import FeaturePost from '../UI/FeaturePost'
 import AboutMe from '../UI/AboutMe'
+import FeaturePost from './FeaturePost'
 
 export default function FeaturePosts() {
   return (

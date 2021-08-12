@@ -1,7 +1,8 @@
 import React from 'react'
-import HeadingTitle from '../UI/HeadingTitle'
 import { Container, Grid } from '@material-ui/core'
-import FeaturePost from '../UI/FeaturePost'
+
+import HeadingTitle from '../UI/HeadingTitle'
+import FeaturePost from './FeaturePost'
 import BlogEntry from '../UI/BlogEntry'
 
 export default function RecentStories() {

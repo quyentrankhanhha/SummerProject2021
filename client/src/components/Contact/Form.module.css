@@ -1,0 +1,18 @@
+.form {
+  background: #f8f9fa;
+}
+
+.form form {
+  padding: 2rem 1rem;
+}
+
+.form form button {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background: #fd5f00;
+  border: 1px solid #fd5f00;
+  border-radius: 3px;
+  padding: 1rem 3rem;
+  margin: 8px;
+}

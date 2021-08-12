@@ -1,5 +1,5 @@
 import React from 'react'
-import Category from './Category'
+import Category from '../UI/Category'
 
 export default function Categories() {
   return (

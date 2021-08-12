@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
 
-import ReadMore from './ReadMore'
+import ReadMore from '../UI/ReadMore'
 
 import classes from './SmallArticle.module.css'
 

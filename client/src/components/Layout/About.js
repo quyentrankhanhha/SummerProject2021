@@ -1,7 +1,9 @@
 import React from 'react'
 import { Grid, Box, Container } from '@material-ui/core'
+
 import AboutContent from '../UI/AboutContent'
 import classes from '../Layout/About.module.css'
+
 export default function About() {
   return (
     <section className={classes.about}>

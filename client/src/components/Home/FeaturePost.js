@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import classes from '../UI/FeaturePost.module.css'
-import ReadMore from './ReadMore'
+import classes from './FeaturePost.module.css'
+import ReadMore from '../UI/ReadMore'
 
 export default function FeaturePost(props) {
   return (

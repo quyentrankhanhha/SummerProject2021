@@ -2,7 +2,7 @@ import React from 'react'
 import HeadingName from '../UI/HeadingTitle'
 import { Container, Grid } from '@material-ui/core'
 import BlogEntry from '../UI/BlogEntry'
-import Categories from '../UI/Categories'
+import Categories from '../Layout/Categories'
 
 export default function Recipes() {
   return (

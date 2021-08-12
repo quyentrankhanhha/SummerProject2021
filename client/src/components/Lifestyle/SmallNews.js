@@ -3,7 +3,8 @@ import React from 'react'
 import { Grid } from '@material-ui/core'
 
 import AboutMe from '../UI/AboutMe'
-import SmallArticle from '../UI/SmallArticle'
+import SmallArticle from './SmallArticle'
+import PaginationLink from '../UI/PaginationLink'
 
 export default function SmallNews() {
   return (
@@ -17,6 +18,15 @@ export default function SmallNews() {
           <AboutMe />
         </Grid>
       </Grid>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          padding: '2rem 1rem'
+        }}
+      >
+        <PaginationLink></PaginationLink>
+      </div>
     </section>
   )
 }
