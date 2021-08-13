@@ -13,17 +13,17 @@ export default function ContactInfo() {
             subtitle='198 West 21th Street, Suite 721 New York NY 10016'
           />
           <ContactIcon
-            icon={<span class='fas fa-map-signs'></span>}
+            icon={<span class='fas fa-phone'></span>}
             title='Contact Number'
             subtitle='+ 1235 2355 98'
           />
           <ContactIcon
-            icon={<span class='fas fa-map-signs'></span>}
+            icon={<span class='fas fa-paper-plane'></span>}
             title='Email Address'
             subtitle='info@yoursite.com'
           />
           <ContactIcon
-            icon={<span class='fas fa-map-signs'></span>}
+            icon={<span class='fas fa-globe-asia'></span>}
             title='Website'
             subtitle='haquyen.com'
           />

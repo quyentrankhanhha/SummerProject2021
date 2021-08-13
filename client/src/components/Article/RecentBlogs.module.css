@@ -1,0 +1,25 @@
+.recent-blogs {
+  padding-top: 0.5rem;
+}
+
+.imagine {
+  width: 100px;
+  height: 100px;
+}
+
+.text h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.5rem;
+}
+
+.meta {
+  color: gray;
+  font-size: 12px;
+}
+
+.meta span {
+  padding-right: 0.5rem;
+}

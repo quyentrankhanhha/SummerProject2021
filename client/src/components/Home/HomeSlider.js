@@ -6,7 +6,7 @@ export default function HomeSlider() {
   return (
     <div className={classes.slider}>
       <Container>
-        <Carousel></Carousel>
+        <Carousel />
       </Container>
     </div>
   )

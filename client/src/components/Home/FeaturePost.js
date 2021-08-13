@@ -7,7 +7,7 @@ import ReadMore from '../UI/ReadMore'
 export default function FeaturePost(props) {
   return (
     <div className={classes.post}>
-      <a className={classes['post-img_cover']}>
+      <a href='/' className={classes['post-img_cover']}>
         <img src={props.source} style={props.imgStyle} alt='feature img' />
       </a>
       <div className={classes.text}>
@@ -17,9 +17,9 @@ export default function FeaturePost(props) {
           <span>March 01, 2021</span>
         </p>
         <h3>
-          <Link>Tasty &#38; Delicious Foods</Link>
+          <Link to={props.link}>Tasty &#38; Delicious Foods</Link>
         </h3>
-        <ReadMore styles={props.readMoreStyle}></ReadMore>
+        <ReadMore link={props.link} styles={props.readMoreStyle} />
       </div>
     </div>
   )

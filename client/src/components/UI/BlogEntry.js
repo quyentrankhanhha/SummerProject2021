@@ -16,6 +16,7 @@ export default function BlogEntry(props) {
               <Link>ham sandwich on white surface</Link>
             </h3>
             <ReadMore
+              link='/article'
               styles={{
                 background: '#fff',
                 color: '#000',

@@ -6,13 +6,13 @@ import AboutMe from '../UI/AboutMe'
 import SmallArticle from './SmallArticle'
 import PaginationLink from '../UI/PaginationLink'
 
-export default function SmallNews() {
+export default function SmallNews(props) {
   return (
     <section className='section-spacing'>
       <Grid container spacing={6} direction='row'>
         <Grid item xs={9}>
-          <SmallArticle></SmallArticle>
-          <SmallArticle></SmallArticle>
+          <SmallArticle link={props.link} />
+          <SmallArticle link={props.link} />
         </Grid>
         <Grid item xs={3}>
           <AboutMe />

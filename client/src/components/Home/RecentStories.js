@@ -15,6 +15,7 @@ export default function RecentStories() {
             <Grid item container spacing={4}>
               <Grid item xs>
                 <FeaturePost
+                  link='/article'
                   source={`/assets/recipes1.webp`}
                   imgStyle={{ height: '220px' }}
                   readMoreStyle={{
@@ -22,10 +23,11 @@ export default function RecentStories() {
                     borderRadius: '3px',
                     fontWeight: 'bold'
                   }}
-                ></FeaturePost>
+                />
               </Grid>
               <Grid item xs>
                 <FeaturePost
+                  link='/article'
                   source={`/assets/recipes1.webp`}
                   imgStyle={{ height: '220px' }}
                   readMoreStyle={{
@@ -33,12 +35,13 @@ export default function RecentStories() {
                     borderRadius: '3px',
                     fontWeight: 'bold'
                   }}
-                ></FeaturePost>
+                />
               </Grid>
             </Grid>
             <Grid container spacing={4}>
               <Grid item xs>
                 <FeaturePost
+                  link='/article'
                   source={`/assets/recipes1.webp`}
                   imgStyle={{ height: '220px' }}
                   readMoreStyle={{
@@ -46,10 +49,11 @@ export default function RecentStories() {
                     borderRadius: '3px',
                     fontWeight: 'bold'
                   }}
-                ></FeaturePost>
+                />
               </Grid>
               <Grid item xs>
                 <FeaturePost
+                  link='/article'
                   source={`/assets/recipes1.webp`}
                   imgStyle={{ height: '220px' }}
                   readMoreStyle={{
@@ -57,7 +61,7 @@ export default function RecentStories() {
                     borderRadius: '3px',
                     fontWeight: 'bold'
                   }}
-                ></FeaturePost>
+                />
               </Grid>
             </Grid>
           </Grid>
@@ -70,7 +74,7 @@ export default function RecentStories() {
                 backgroundSize: 'cover',
                 height: '800px'
               }}
-            ></BlogEntry>
+            />
           </Grid>
         </Grid>
       </Container>

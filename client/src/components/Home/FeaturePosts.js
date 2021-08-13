@@ -15,6 +15,7 @@ export default function FeaturePosts() {
             <Box display='flex' flexWrap='wrap'>
               <Box flex='0 0 33%' p={3}>
                 <FeaturePost
+                  link='/article'
                   source={`/assets/featurepost1.jpeg`}
                   imgStyle={{ height: 'auto' }}
                   readMoreStyle={{
@@ -29,6 +30,7 @@ export default function FeaturePosts() {
               </Box>
               <Box flex='0 0 33%' p={3}>
                 <FeaturePost
+                  link='/article'
                   source={`/assets/featurepost1.jpeg`}
                   imgStyle={{ height: 'auto' }}
                   readMoreStyle={{
@@ -43,6 +45,7 @@ export default function FeaturePosts() {
               </Box>
               <Box flex='0 0 33%' p={3}>
                 <FeaturePost
+                  link='/article'
                   source={`/assets/featurepost1.jpeg`}
                   imgStyle={{ height: 'auto' }}
                   readMoreStyle={{

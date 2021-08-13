@@ -17,6 +17,7 @@ export default function FoodPage() {
               <Box display='flex' flexWrap='wrap'>
                 <Box flex='0 0 33%' p={3}>
                   <FeaturePost
+                    link='/article'
                     source={`/assets/featurepost1.jpeg`}
                     imgStyle={{ height: 'auto' }}
                     readMoreStyle={{
@@ -31,6 +32,7 @@ export default function FoodPage() {
                 </Box>
                 <Box flex='0 0 33%' p={3}>
                   <FeaturePost
+                    link='/article'
                     source={`/assets/featurepost1.jpeg`}
                     imgStyle={{ height: 'auto' }}
                     readMoreStyle={{
@@ -45,6 +47,7 @@ export default function FoodPage() {
                 </Box>
                 <Box flex='0 0 33%' p={3}>
                   <FeaturePost
+                    link='/article'
                     source={`/assets/featurepost1.jpeg`}
                     imgStyle={{ height: 'auto' }}
                     readMoreStyle={{
@@ -59,6 +62,7 @@ export default function FoodPage() {
                 </Box>
                 <Box flex='0 0 33%' p={3}>
                   <FeaturePost
+                    link='/article'
                     source={`/assets/featurepost1.jpeg`}
                     imgStyle={{ height: 'auto' }}
                     readMoreStyle={{
@@ -74,7 +78,7 @@ export default function FoodPage() {
               </Box>
             </Grid>
             <Grid item xs={3}>
-              <AboutMe></AboutMe>
+              <AboutMe />
               <Categories />
             </Grid>
           </Grid>

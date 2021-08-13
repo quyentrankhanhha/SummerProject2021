@@ -9,20 +9,16 @@ export default function Carousel() {
   const nextSlide = () => {
     if (slideIndex < dataSlider.length - 1) {
       setSlideIndex(slideIndex + 1)
-      console.log(slideIndex)
     } else if (slideIndex === dataSlider.length - 1) {
       setSlideIndex(0)
-      console.log(slideIndex)
     }
   }
 
   const prevSlide = () => {
     if (slideIndex > 0) {
       setSlideIndex(slideIndex - 1)
-      console.log(slideIndex)
     } else if (slideIndex === 0) {
       setSlideIndex(dataSlider.length - 1)
-      console.log(slideIndex)
     }
   }
   const dataSlider = [
@@ -62,6 +58,7 @@ export default function Carousel() {
             <h1>{dataSlider[slideIndex].title}</h1>
             <p>{dataSlider[slideIndex].subtitle}</p>
             <ReadMore
+              link='/article'
               styles={{
                 background: '#000',
                 color: '#fff',
@@ -70,7 +67,7 @@ export default function Carousel() {
                 borderRadius: '3px',
                 fontWeight: '400'
               }}
-            ></ReadMore>
+            />
           </div>
           <div className={classes['carousel__buttons']}>
             <Button
@@ -81,7 +78,7 @@ export default function Carousel() {
                 </div>
               }
               onClick={prevSlide}
-            ></Button>
+            />
             <Button
               title={
                 <div className={classes['btn-black']}>
@@ -90,7 +87,7 @@ export default function Carousel() {
                 </div>
               }
               onClick={nextSlide}
-            ></Button>
+            />
           </div>
         </div>
       </div>

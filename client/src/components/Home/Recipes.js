@@ -14,6 +14,7 @@ export default function Recipes() {
             <Grid container spacing={4}>
               <Grid item xs={6}>
                 <BlogEntry
+                  link='/article'
                   imgStyle={{
                     background: `url(/assets/recipes1.webp)`,
                     backgroundRepeat: 'no-repeat',
@@ -21,10 +22,11 @@ export default function Recipes() {
                     backgroundSize: 'cover',
                     height: '500px'
                   }}
-                ></BlogEntry>
+                />
               </Grid>
               <Grid item xs={6}>
                 <BlogEntry
+                  link='/article'
                   imgStyle={{
                     background: `url(/assets/recipes1.webp)`,
                     backgroundRepeat: 'no-repeat',
@@ -32,12 +34,12 @@ export default function Recipes() {
                     backgroundSize: 'cover',
                     height: '500px'
                   }}
-                ></BlogEntry>
+                />
               </Grid>
             </Grid>
           </Grid>
           <Grid item xs={3}>
-            <Categories></Categories>
+            <Categories />
           </Grid>
         </Grid>
       </Container>

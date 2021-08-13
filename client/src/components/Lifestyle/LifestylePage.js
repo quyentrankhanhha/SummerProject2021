@@ -8,13 +8,9 @@ import SmallNews from './SmallNews'
 export default function LifestylePage() {
   return (
     <Fragment>
-      <Banner
-        title='Lifestyle'
-        page='Lifestyle'
-        source='/assets/banner.webp'
-      ></Banner>
+      <Banner title='Lifestyle' page='Lifestyle' source='/assets/banner.webp' />
       <Container>
-        <SmallNews></SmallNews>
+        <SmallNews link='/article' />
       </Container>
     </Fragment>
   )

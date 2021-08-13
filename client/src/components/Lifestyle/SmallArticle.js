@@ -1,11 +1,11 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
+import { Grid, Link } from '@material-ui/core'
 
 import ReadMore from '../UI/ReadMore'
 
 import classes from './SmallArticle.module.css'
 
-export default function SmallArticle() {
+export default function SmallArticle(props) {
   return (
     <Grid container spacing={5} className={classes['small-article']}>
       <Grid item xs>
@@ -23,7 +23,7 @@ export default function SmallArticle() {
             <span>March 01, 2018</span>
           </p>
           <h3>
-            <a>Tasty and Delicious Foods</a>
+            <Link to={props.link}>Tasty and Delicious Foods</Link>
           </h3>
           <p>
             A small river named Duden flows by their place and supplies it with
@@ -32,6 +32,7 @@ export default function SmallArticle() {
           </p>
 
           <ReadMore
+            link={props.link}
             styles={{
               background: '#fd5f00',
               color: '#fff',
@@ -40,7 +41,7 @@ export default function SmallArticle() {
               borderRadius: '3px',
               fontWeight: 'bold'
             }}
-          ></ReadMore>
+          />
         </div>
       </Grid>
     </Grid>
